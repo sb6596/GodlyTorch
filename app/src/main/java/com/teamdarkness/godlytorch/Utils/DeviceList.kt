@@ -140,11 +140,11 @@ object DeviceList {
         )
         deviceList.add(
                 Device().setName("ZUK Z1")
-                        .setDeviceId("k9")
+                        .setDeviceId("ham")
                         .isDualTone(true)
                         .setBrightnessMax(255)
-                        .setYellowLedFileLocation("led:torch_1/brightness")
-                        .setWhiteLedFileLocation("led:torch_0/brightness")
+                        .setYellowLedFileLocation("led:torch_0/brightness")
+                        .setWhiteLedFileLocation("led:torch_1/brightness")
                         .setToggleFileLocation("led:switch/brightness")
         )
 

@@ -139,7 +139,7 @@ object DeviceList {
                         .setSingleLedFileLocation("flashlight/brightness")
         )
         deviceList.add(
-                Device().setName("Lenovo ZUK Z1")
+                Device().setName("ZUK Z1")
                         .setDeviceId("k9")
                         .isDualTone(true)
                         .setBrightnessMax(255)
